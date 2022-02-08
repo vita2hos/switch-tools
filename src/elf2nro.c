@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <elf.h>
 #include <lz4.h>
 #include "sha256.h"
-#include "elf64.h"
 #include "romfs.h"
 
 typedef struct {
